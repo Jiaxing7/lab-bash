@@ -2,4 +2,17 @@
 2. mkdir new_dir
 3. rmdir new_dir
 4. cp lorem/sed.txt lorem-copy/
-5. cp lorem/{lorem.txt,at.txt} lorem-copy/
+5. cp lorem/ipsum.txt lorem/dolor.txt lorem-copy/
+6. cd lorem
+7. start at.txt
+  star lorem.txt
+8. head -n 3 lorem-copy/sed.txt
+9. tail -n 3 lorem-copy/sed.txt
+10.echo "Homo homini lupus." >> lorem-copy/sed.txt
+11. tail -n 3 lorem-copy/sed.txt
+12.sed -i 's/et/ET/g' lorem/at.txt
+13.whoami
+14.pwd
+15.ls lorem/*.txt
+16.cat lorem/sed.txt | wc -l
+17.git ls-files | grep "^lorem" | wc -l
